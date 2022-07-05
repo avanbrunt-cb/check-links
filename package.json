@@ -1,6 +1,6 @@
 {
   "name": "check-links",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Robustly checks an array of URLs for liveness.",
   "main": "index.js",
   "repository": "transitive-bullshit/check-links",
@@ -28,14 +28,14 @@
     "url-check"
   ],
   "devDependencies": {
-    "ava": "^1.2.1",
+    "ava": "^4.3.0",
     "nock": "^10.0.6",
     "sinon": "^7.4.2",
     "standard": "^12.0.1",
     "update-markdown-jsdoc": "^1.0.6"
   },
   "dependencies": {
-    "got": "^9.6.0",
+    "got": "^12.1.0",
     "is-relative-url": "^2.0.0",
     "p-map": "^2.0.0",
     "p-memoize": "^2.1.0"
